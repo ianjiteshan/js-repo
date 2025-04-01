@@ -1,6 +1,7 @@
 let names = "Anji"; 
 var gender = "Male"; 
 console.log(names, gender);  
+//use let and const..var is avoided due 
 
 //equality operators
 console.log(2==2); //loose equality
