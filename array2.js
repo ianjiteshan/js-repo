@@ -4,7 +4,6 @@ const hollywood_heroes=["Tom", "Vin","Leanardo"];
 console.log(bollywood_heroes);
 console.log(hollywood_heroes);
 //pushing one array into the other
-
 //bollywood_heroes.push(hollywood_heroes);
 console.log(bollywood_heroes);
 
