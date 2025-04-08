@@ -19,3 +19,29 @@ do{
     k++;
 }
 while(k<10);
+
+//loop in loop
+console.log("loopinloop");
+for (let i = 0; i < 3; i++) {
+    for (let j = 0; j < 3; j++) {
+        console.log(i, j);
+    }
+}
+
+//break
+console.log("break");
+for (let i = 0; i < 5; i++) {
+    if (i == 3) {
+        break;
+    }
+    console.log(i);
+}
+
+//continue
+console.log("continue");
+for (let i = 0; i < 5; i++) {
+    if (i == 3) {
+        continue;
+    }
+    console.log(i);
+}

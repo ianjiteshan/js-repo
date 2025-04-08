@@ -26,7 +26,7 @@ else{
 
     
     //var day = prompt("Enter a number between 1 to 7");
-    let day = 8;
+    let day = "6";
     switch (day){
         case "1":
             console.log("Monday");
@@ -45,7 +45,7 @@ else{
             break;
         case "6":
             console.log("Saturday");
-            break;
+            //break;  //this and next line will execute as it is not break
         case "7":
             console.log("Sunday");
             break;
@@ -54,3 +54,21 @@ else{
             console.log("invalid day");
     }
         
+
+//falsy values-These values evaluate to false when converted to a boolean
+//false,0,null,-0,NaN,"",undefined, BigInt 0n;
+
+//rest all are truthy values
+//example='0','false'," ",[],{},function(){},true;
+
+//nullish coalescing operator
+let a1 = 0;
+let b1 = null;
+console.log(a1??b1);
+
+//ternary operator 
+//condtion ? true: false
+let a2 = 10;
+let b2 = 20;
+let c2 = a2>b2 ? "a2 is greater" : "b2 is greater";
+console.log(c2);
