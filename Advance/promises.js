@@ -90,9 +90,11 @@ consumePromiseFive()
 //getAllUsers()
 
 fetch('https://api.github.com/users/hiteshchoudhary')
+//fetch ka datastore hua response mai
 .then((response) => {
     return response.json()
 })
+//response.json store hoga data mai aur print hoga console pe
 .then((data) => {
     console.log(data);
 })
