@@ -20,8 +20,8 @@ createUser.prototype.increment = function(){
 createUser.prototype.printMe = function(){
     console.log(`price is ${this.score}`);
 }
-
-const chai = new createUser("chai", 25)
+//new keyword is used to create an object 
+const chai = new createUser("chai", 25) 
 const tea = createUser("tea", 250)
 
 chai.printMe()
